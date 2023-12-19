@@ -322,6 +322,10 @@ textarea {
   color: #555;
 }
 
+.list-item.TASK_INBOX .icon-star {
+  color: #ddd;
+}
+
 .list-item.TASK_PINNED .icon-star {
   color: #2cc5d2;
 }
@@ -350,6 +354,13 @@ textarea {
 
 .list-item.checked .delete-item {
   display: inline-block;
+}
+
+.list-item .actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
 }
 
 .loading-item {
